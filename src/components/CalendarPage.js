@@ -5,7 +5,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import listPlugin from "@fullcalendar/list";
 import { Link } from "react-router-dom";
 
-const CalenderPage = () => {
+const CalendarPage = () => {
   let [clients, setClients] = useState(
     JSON.parse(localStorage.getItem("clients")) || []
   );
@@ -56,4 +56,4 @@ const CalenderPage = () => {
   );
 };
 
-export default CalenderPage;
+export default CalendarPage;

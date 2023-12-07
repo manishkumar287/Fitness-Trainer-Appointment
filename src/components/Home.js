@@ -4,7 +4,7 @@ import AddAppointment from "./AddAppointment";
 import AddClient from "./AddClient";
 import Search from "./Search";
 import ResponsiveGrid from "./grid/ResponsiveGrid";
-import ViewCalender from "./ViewCalender";
+import ViewCalendar from "./ViewCalendar";
 
 const Home = () => {
   let [clients, setClients] = useState(
@@ -63,7 +63,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row justify-between gap-4">
           <AddClient addClient={addClient} />
           <AddAppointment addAppointment={addAppointment} clients={clients} />
-          <ViewCalender />
+          <ViewCalendar />
         </div>
         <Search
           query={query}

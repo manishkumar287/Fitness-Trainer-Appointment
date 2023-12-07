@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const ViewCalender = () => {
+const ViewCalendar = () => {
   const naviagte = useNavigate();
 
   const handleViewCalender = () => {
@@ -12,10 +12,10 @@ const ViewCalender = () => {
         onClick={handleViewCalender}
         className={"bg-blue-400 text-white px-2 py-3 text-left rounded-md"}
       >
-        Calender View
+        Calendar View
       </button>
     </div>
   );
 };
 
-export default ViewCalender;
+export default ViewCalendar;
