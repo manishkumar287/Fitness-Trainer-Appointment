@@ -10,21 +10,18 @@ This is a simple React app that allows users to schedule appointments. It makes 
 
 ## Usage
 
-1. Once the app is running, navigate to the homepage to view a list of current appointments.
-2. To add a new appointment, click the "Add Appointment" button and fill in the necessary information.
-3. To edit an existing appointment, click the edit button next to the appointment and make your changes.
-4. To delete an appointment, click the delete button next to the appointment.
+1. Once the app is running, navigate to the homepage to view a list of clients.
+2. To add a new appointment, click the "Add Appointment" button and fill in the necessary information
+3. To add a new Client, click the "Add Client" button and fill in the necessary information.
+4. To edit an existing appointment, click the edit button next to the appointment and make your changes.
+5. To delete an appointment, click the delete button next to the appointment.
+6. To View the full Calender View, click the "Calender View" Button.
 
 ## Technologies Used
 
 - React
 - React Icons
 - Tailwind CSS
+- Material UI
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
